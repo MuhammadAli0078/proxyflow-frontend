@@ -110,7 +110,7 @@ export default function Landing() {
             >
               <div className="relative rounded-2xl overflow-hidden border border-border glow-yellow">
                 <img
-                  src="/images/hero-network.jpg"
+                  src={`${import.meta.env.BASE_URL}images/hero-network.jpg`}
                   alt="Global proxy network visualization"
                   className="w-full h-auto object-cover"
                   onError={(e) => {

@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# ad-hoc E2E test scripts / captures, not part of the app
+e2e-*.mjs
+debug-*.png
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
